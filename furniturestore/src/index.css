@@ -1,0 +1,35 @@
+/* FINAL MACHI CSS */
+body {
+  background: #f8f9fa;
+}
+div[style*="padding: 20px"] {
+  max-width: 1400px;
+  margin: auto;
+}
+input, select, button {
+  border-radius: 8px !important;
+  padding: 8px 14px !important;
+  border: 1px solid #ddd !important;
+}
+button {
+  cursor: pointer;
+  font-weight: 600;
+}
+button[style*="black"] {
+  background: #212529 !important;
+}
+button[style*="red"] {
+  background: #dc3545 !important;
+}
+div[style*="grid-template-columns"] > div {
+  background: white;
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
+  transition: all 0.3s !important;
+  overflow: hidden;
+}
+div[style*="grid-template-columns"] > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}

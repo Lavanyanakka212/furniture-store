@@ -1,0 +1,57 @@
+{
+  "users": [
+    { "id": 1, "name": "teja", "email": "teja@gmail.com", "password": "admin123" }
+  ],
+  "furnitures": [
+    {
+      "id": 1,
+      "name": "Modern Sofa Set",
+      "category": "Sofa",
+      "price": 25000,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600",
+      "material": "Leather",
+      "color": "Grey"
+    },
+    {
+      "id": 2,
+      "name": "Wooden Dining Table",
+      "category": "Dining",
+      "price": 18000,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1615066028049-d06a2d5e71b5?w=600",
+      "material": "Teak Wood",
+      "color": "Brown"
+    },
+    {
+      "id": 3,
+      "name": "King Size Bed",
+      "category": "Bed",
+      "price": 32000,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600",
+      "material": "Wood",
+      "color": "Walnut"
+    },
+    {
+      "id": 4,
+      "name": "Office Chair",
+      "category": "Chair",
+      "price": 5500,
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=600",
+      "material": "Mesh",
+      "color": "Black"
+    },
+    {
+      "id": 5,
+      "name": "Bookshelf",
+      "category": "Storage",
+      "price": 8000,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600",
+      "material": "Wood",
+      "color": "White"
+    }
+  ]
+}
